@@ -48,10 +48,10 @@ class _BottomNavState extends State<BottomNav> {
       ),
       body: Padding(
               padding: const EdgeInsets.all(12),
-              child: const [
+              child: [
       Home(),
       CategoryScreen(),
-      ProductScreen()
+      ProductScreen(category_name: "xiaomi")
               ][_selectedIndex],
             ),
       bottomNavigationBar: BottomNavigationBar(

@@ -3,7 +3,7 @@ import 'package:flutter_future/config/const.dart';
 import 'package:flutter_future/data/model/category_model.dart';
 import 'package:flutter_future/data/provider/app_provider.dart';
 import 'package:flutter_future/screens/category/widgets/category_item.dart';
-
+import 'dart:async';
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
 
@@ -39,15 +39,15 @@ class _CategoryScreenState extends State<CategoryScreen> {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Center(child: CircularProgressIndicator());
         } else if (snapshot.hasError) {
-          return Center(child: Text("Error loading categories"));
+          return const Center(child: Text("Error loading categories"));
         } else if (!snapshot.hasData || listCategory.isEmpty) {
-          return Center(child: Text("No categories available"));
+          return const Center(child: Text("No categories available"));
         } else {
           return Center(
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text(
+                const Text(
                   "Category List",
                   style: titleStyle,
                 ),

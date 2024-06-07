@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+          "id": "1",
+          "name": "Xiaomi 10",
+          "price": 29.99,
+          "img": "xiaomi_10.jpg",
+          "des": "This is a description of Product One"
+        },
+        {
+          "id": "2",
+          "name": "Xiaomi 13 T",
+          "price": 39.99,
+          "img": "xiaomi_13_t.jpg",
+          "des": "This is a description of Product Two"
+        },
+        {
+          "id": "3",
+          "name": "Xiaomi 13",
+          "price": 49.99,
+          "img": "xiaomi_13.jpg",
+          "des": "This is a description of Product Three"
+        },
+        {
+          "id": "4",
+          "name": "Xiaomi 14",
+          "price": 59.99,
+          "img": "xiaomi_14.jpg",
+          "des": "This is a description of Product Four"
+        },
+        {
+          "id": "5",
+          "name": "TV Xiaomi",
+          "price": 69.99,
+          "img": "tv_xiaomi.jpg",
+          "des": "This is a description of Product Five"
+        }
+      ]
+}

@@ -1,0 +1,39 @@
+{
+    "data":[
+        {
+          "id": "1",
+          "name": "iPhone 13",
+          "price": 29.99,
+          "img": "iphone_13.png",
+          "des": "This is a description of Product One"
+        },
+        {
+          "id": "2",
+          "name": "iPhone 14",
+          "price": 39.99,
+          "img": "iphone_14.png",
+          "des": "This is a description of Product Two"
+        },
+        {
+          "id": "3",
+          "name": "iPhone 15 Plus",
+          "price": 49.99,
+          "img": "iphone_15_plus.png",
+          "des": "This is a description of Product Three"
+        },
+        {
+          "id": "4",
+          "name": "iPhone 12",
+          "price": 59.99,
+          "img": "iphone12.png",
+          "des": "This is a description of Product Four"
+        },
+        {
+          "id": "5",
+          "name": "iPhone XS",
+          "price": 69.99,
+          "img": "iphonexs.png",
+          "des": "This is a description of Product Five"
+        }
+      ]
+}
