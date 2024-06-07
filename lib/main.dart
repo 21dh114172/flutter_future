@@ -47,21 +47,21 @@ class _BottomNavState extends State<BottomNav> {
         title: const Text("List Product"),
       ),
       body: Padding(
-              padding: const EdgeInsets.all(12),
-              child: const [
-      Home(),
-      CategoryScreen(),
-      ProductScreen()
-              ][_selectedIndex],
-            ),
+        padding: const EdgeInsets.all(12),
+        child: const [
+          Home(),
+          CategoryScreen(),
+          // ProductScreen()
+        ][_selectedIndex],
+      ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined), label: 'Home'),
           BottomNavigationBarItem(
               icon: Icon(Icons.category_outlined), label: 'Category'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.list_rounded), label: 'Product'),
+          // BottomNavigationBarItem(
+          //     icon: Icon(Icons.list_rounded), label: 'Product'),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.orange[600],

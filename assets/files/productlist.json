@@ -1,0 +1,69 @@
+{
+    "data":
+    [
+        {
+            "id": 1,
+            "name": "Iphone 12 Black",
+            "price": "8000000",
+            "img": "iphone-14-black.png",
+            "des": "Good looking",
+            "categoryId": "1"
+        },
+        {
+            "id": 2,
+            "name": "Iphone 12 Green",
+            "price": "9000000",
+            "img": "iphone-14-blue.png",
+            "des": "Good looking",
+            "categoryId": "1"
+        },
+        {
+            "id": 3,
+            "name": "Iphone 13 Pink",
+            "price": "10000000",
+            "img": "iphone-14-black.png",
+            "des": "Good looking",
+            "categoryId": "1"
+        },
+        {
+            "id": 4,
+            "name": "Iphone 14 Black",
+            "price": "11500000",
+            "img": "iphone-14-blue.png",
+            "des": "Good looking",
+            "categoryId": "1"
+        },
+        {
+            "id": 5,
+            "name": "Iphone 14 Golden",
+            "price": "12500000",
+            "img": "iphone-14-blue.png",
+            "des": "Gorgeous",
+            "categoryId": "1"
+        },
+        {
+            "id": 6,
+            "name":"Iphone 14 Silver",
+            "price": "13500000",
+            "img": "iphone-14-black.png",
+            "des": "Gorgeous",
+            "categoryId": "1"
+        },
+        {
+            "id": 7,
+            "name": "Iphone 14 Pink",
+            "price": "15000000",
+            "img": "iphone-14-blue.png",
+            "des": "Luxury",
+            "categoryId": "1"
+        },
+        {
+            "id": 8,
+            "name": "Iphone 14 Silver",
+            "price": "24000000",
+            "img": "iphone-14-black.png",
+            "des": "Luxury",
+            "categoryId": "1"
+        }
+    ]
+}

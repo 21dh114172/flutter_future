@@ -6,7 +6,6 @@ class CategoryModel {
   CategoryModel({this.id, this.name, this.img});
 
   CategoryModel.fromJson(Map<String, dynamic> json) {
-    // Adding debugging statements
     id = json['id']?.toString();
     name = json['name']?.toString();
     img = json['img']?.toString();
