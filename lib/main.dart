@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_future/screens/category/category_screen.dart';
 import 'package:flutter_future/screens/home/home.dart';
 import 'package:flutter_future/screens/product/product_screen.dart';
+import 'package:flutter_future/screens/register.dart';
+import 'package:flutter_future/screens/detail.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 190, 166, 230)),
         useMaterial3: true,
       ),
       home: const BottomNav(),
@@ -48,9 +50,11 @@ class _BottomNavState extends State<BottomNav> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(12),
-        child: const [
+        child: [
           Home(),
           CategoryScreen(),
+          Register(),
+          Detail(),
           // ProductScreen()
         ][_selectedIndex],
       ),
@@ -60,11 +64,15 @@ class _BottomNavState extends State<BottomNav> {
               icon: Icon(Icons.home_outlined), label: 'Home'),
           BottomNavigationBarItem(
               icon: Icon(Icons.category_outlined), label: 'Category'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Register'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.supervised_user_circle), label: 'Info'),
           // BottomNavigationBarItem(
           //     icon: Icon(Icons.list_rounded), label: 'Product'),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: Colors.orange[600],
+        unselectedItemColor: Colors.grey,
         onTap: onItemTapped,
       ),
     );
